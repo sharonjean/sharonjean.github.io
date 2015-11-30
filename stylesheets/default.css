@@ -1,0 +1,75 @@
+#portrait {
+  margin-top: -100px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+  border-radius: 100%;
+}
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+  width: 960px;
+}
+
+.blog-post {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #d3d3d3;
+}
+
+.nav {
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #d3d3d3;
+  clear: both;
+}
+
+.social-media {
+  text-align: left;
+}
+
+.contact > a:link {
+  float: right;
+  text-decoration: none;
+  color: blue;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 3em;
+  color: #212121;
+  margin-left: 100px;
+  clear: both;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+footer {
+  bottom: 10px;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  color: #212121;
+  background-color: #d3d3d3;
+  position: static;
+  clear: both;
+}
+
+a:link {
+  text-decoration: none;
+  color: #212121;
+}
+a:visited {
+  text-decoration: none;
+  color: #212121;
+}
+
