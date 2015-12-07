@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   <title>arrays and hashes</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
   <h3>December 7</h3>
   <h1>Arrays vs. Hashes: When to use them</h1>
   <p>
-    Arrays and hashes are collection classes which are used to store (and retrieve) data.
+    Arrays and hashes are collection classes which are used to store (and retrieve) data. <br />
 
     Possibilities are endless, however, as arrays and hashes can actually coexist together. For example, you can turn an array into a hash. But, first things first.
   </p>
@@ -19,33 +19,40 @@
     <h3>Examples</h3>
   <p>
     A simple array of rainbow colors:
-
+  </p>
+  <p id="ruby">
     colors = ["red", "orange", "yellow", "green", "blue", "indigo", "purple"]
   </p>
   <p>
     And now, a hash of my favorite lipstick colors from different brands:
-
+  </p>
+  <p id="ruby">
     fave_lipstick = {"Jefree Star" => "Unicorn Blood", "Urban Decay" = "F-Bomb", "BlackMoonCosmetics" => "Sanguis", "Stila" => "Aria", "Lush" => "Decisive", "ABH" => "Catnip"}
   </p>
   <p>
     <h3>Retrieval</h3>
   <p>
     The point of storing these collections of data, is so you can retrieve them!
-
+  </p>
+  <p>
     Array: To retrive an item from an array, it's important to note that each item is stored in an index, starting with the number 0. So, if we were to retrieve from our colors array, we would call it like this:
-
+  </p>
+  <p>
     colors[0] - which will return "red", the first item in the array.
-
+  </p>
+  <p>
     Hash: To retrieve a value from a Hash's key/value pair, you would retrive it like this:
-
+  </p>
+  <p>
     fave_lipstick["ABH"] - this returns "Catnip", which is the value for key "ABH" (and a most beautiful shade of mauve)!
-
+  </p>
+  <section>
     <h3>When and why: arrays</h3>
     -you need to create an ordered list
 
     <h3>When and why: hashes</h3>
     -you need to map a value to an item
     -you have data that comes in pairs that you need to work with (key-value)
-  </p>
+  </section>
 </body>
 </html>
