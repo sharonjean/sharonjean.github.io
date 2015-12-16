@@ -10,6 +10,7 @@ body {
   margin: auto;
   font-family: sans-serif;
   width: 960px;
+  height: 500px;
 }
 
 .blog-post {
@@ -61,7 +62,6 @@ footer {
   border-radius: 10px;
   color: #212121;
   background-color: #d3d3d3;
-  position: static;
   clear: both;
 }
 
