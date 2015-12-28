@@ -10,6 +10,14 @@
   font-size: 16px;
 }
 
+pre {
+  margin-right: 150px;
+  margin-left: 150px;
+  font-family: monospace;
+  font-size: 16px;
+  background-color: #e8e8ee;
+}
+
 #page {
   max-width: 940px;
   min-width: 720px;
