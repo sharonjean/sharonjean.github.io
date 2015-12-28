@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <title>the ruby class</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="page">
+  <header>
+    <nav>
+    <link href="https://file.myfontastic.com/BNfBWMa4saCx9GFDW5avVj/icons.css" rel="stylesheet">
+      <ul class="navigation">
+        <li><a href="http://sharonjean.github.io/blog-index.html">blog</a></li>
+        <li><a href="http://sharonjean.github.io/about.html">about</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">resume</a></li>
+      </ul>
+    </nav>
+  <h1>
+<body>
+  <h3>December 19</h3>
+  <h1>what about class?</h1>
+  <p>
+    We know that Ruby is an object-oriented programming language, so how does class come into the picture? Using classes, you can create objects in Ruby, which are equipped with powerful built-in methods, as well as methods you can create for your new objects.
+  </p>
+  <h3>defining class</h3>
+  <p>
+    <b>A class about none other than..coffee:</b>
+  </p>
+  <p id="ruby">
+    class Coffee
+
+      def initialize(temp, flavor)
+        @temp = temp
+        @flavor = flavor
+      end
+
+      def temperature
+        @temp
+      end
+
+      def flavor
+        @flavor
+      end
+
+      def choice_of_beverage
+        puts "Here's your delicious #{@temp} #{@flavor}!"
+      end
+
+    end
+  </p>
+
+  <p>
+    <b>initialize</b>
+  </p>
+
+  <p>
+    Let's break down what's going on in this class so far. <p id="ruby">initialize</p> is a special method you can use that will set an object's state when (and for each time) it is created. The great part is that Ruby has access to the values (the two arguments shown), as it has been saved by way of <p id="ruby">instance variables.</p></p>
+
+  <p>
+    <b>instance variables</b>
+  </p>
+
+  <p>
+    An <p id="ruby">instance variable,</p> denoted in the example with an <p id="ruby">@ symbol,</p> is an object's variable. So it acts like a local variable, but is available for use between all methods in the class.
+
+  <p>
+    <b>instantiation</b>
+  </p>
+
+  </p>
+    To get the class going, it needs to be instantiated—which is to say that objects created are instances of the class. We can do this by calling the <p id="ruby">.new</p> method on the class like so:
+  <p id="ruby">
+    best_coffee = Coffee.new("iced", "almond latte")
+  </p>
+
+  <p>
+    <b>output</b>
+  </p>
+
+  <p id="ruby">
+    puts best_coffee.choice_of_beverage
+
+    => "Here's your delicious iced almond latte!"
+  </p>
+
+</body>
+</html>
