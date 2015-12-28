@@ -1,7 +1,13 @@
 #ruby {
   font-family: monospace;
-  font-weight: bold;
-  background-color: #d3d3d3;
+  font-size: 16px;
+  background-color: #e8e8ee;
+  display: block;
+}
+
+.ruby {
+  font-family: monospace;
+  font-size: 16px;
 }
 
 #page {
@@ -9,7 +15,7 @@
   min-width: 720px;
   margin: 10px 100px 10px 100px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -22,6 +28,10 @@ body {
 p {
   margin-right: 150px;
   margin-left: 150px;
+}
+
+h1, h3 {
+  text-align: center;
 }
 
 .navigation {
@@ -39,6 +49,7 @@ p {
 .social-media {
   margin-top: 50px;
   padding: 15px;
+  text-align: center;
 }
 
 li {
