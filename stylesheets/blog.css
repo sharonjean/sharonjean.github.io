@@ -1,4 +1,6 @@
 #ruby {
+  font-family: monospace;
+  font-weight: bold;
   background-color: #d3d3d3;
 }
 
@@ -10,11 +12,6 @@
   text-align: center;
 }
 
-
-#portrait {
-  float: center;
-  border-radius: 100%;
-}
 
 body {
   font-family: sans-serif;
