@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <title>projects</title>
-  <meta charset="UTF-8">
-</head>
-<body>
-
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+      <title>projects</title>
+      <meta charset="UTF-8">
+    </head>
+  <body>
   <div id="page">
   <header>
     <nav>
@@ -18,15 +17,18 @@
         <li><a href="">resume</a></li>
       </ul>
     </nav>
+
   <h1><a href="sharonjean.github.io/index.html"><img id="portrait" src="../imgs/sharonphoto.jpg" alt="photograph of Sharon Claitor"></a></h1>
   </header>
 
-  <section class="project">
   <h2>Make an excuse Mad Libs!</h2>
-    <ul id="libs">
-      <li><li>
-
-  </section>
+    <ul>
+      <li>Noun: <input type="text" id="noun">
+      <li>Adjective: <input type="text" id="adjective">
+      <li>Someone's Name: <input type="text" id="name">
+    </ul>
+  <button id="button">Mad Libs!</button>
+  <div id="story"></div>
 
   <div class="social-media">
     <ul>
@@ -40,5 +42,6 @@
     <p>&copy; sharon jean 2015</p>
   </footer>
   </div>
+  <script src="../scripts/madlibs.js" type="text/javascript"></script>
   </body>
 </html>
