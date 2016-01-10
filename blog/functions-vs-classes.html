@@ -29,26 +29,26 @@
 
   <p id="ruby">
     <pre>
-    class Coffee<br />
+    class Coffee
 
-      def initialize(temp, flavor)<br />
-        @temp = temp<br />
-        @flavor = flavor<br />
-      end<br />
+      def initialize(temp, flavor)
+        @temp = temp
+        @flavor = flavor
+      end
 
-      def temperature<br />
-        @temp<br />
-      end<br />
+      def temperature
+        @temp
+      end
 
-      def flavor<br />
-        @flavor<br />
-      end<br />
+      def flavor
+        @flavor
+      end
 
-      def choice_of_beverage<br />
-        puts "#{@temp} #{@flavor}"<br />
-      end<br />
+      def choice_of_beverage
+        puts "#{@temp} #{@flavor}"
+      end
 
-    end<br />
+    end
     </pre>
   </p>
 
@@ -57,17 +57,17 @@
  <p id="ruby">
     <pre>
       //Javascript uses function instead of class
-      function Coffee(temp, flavor) {<br /> //this is used much like a Ruby @variable
-        this.temp = temp;<br />
-        this.flavor = flavor;<br />
-      }<br />
+      function Coffee(temp, flavor) { //this is used much like a Ruby @variable
+        this.temp = temp;
+        this.flavor = flavor;
+      }
 
-      Coffee.prototype.choiceOfBeverage = function() {<br />
-        return this.temp + " " + this.flavor;<br />
-      }<br />
+      Coffee.prototype.choiceOfBeverage = function() {
+        return this.temp + " " + this.flavor;
+      }
 
-      var carey = new Coffee("iced", "almond latte");<br />
-      console.log(carey.choiceOfBeverage());<br />
+      var carey = new Coffee("iced", "almond latte");
+      console.log(carey.choiceOfBeverage());
     </pre>
   </p>
 

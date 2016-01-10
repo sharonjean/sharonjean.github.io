@@ -1,0 +1,59 @@
+td {
+  font-family: monospace;
+  font-size: 12px;
+  background-color: #e8e8ee;
+  border: 1px solid black;
+}
+
+tr.head {
+  text-align: center;
+}
+
+#page {
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px 100px 10px 100px;
+  padding: 20px;
+}
+
+body {
+  font-family: sans-serif;
+/*  line-height: 1.4em;*/
+  color: #212121;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.navigation {
+  max-width: 940px;
+  min-width: 720px;
+  background-color: #e8e8ee;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0px auto 0px auto;
+  padding: 15px;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.social-media {
+  margin-top: 50px;
+  padding: 15px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #212121;
+}
