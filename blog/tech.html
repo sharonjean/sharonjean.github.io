@@ -40,7 +40,7 @@
     if ( sunday =~ /rain(.*)/ )
       puts "sunday contains rain"
     end
-    if ( monday =~ /rain(.*/ )
+    if ( monday =~ /rain(.*)/ )
       puts "monday contains rain"
     end
 
@@ -48,11 +48,43 @@
     </pre>
   </p>
 
+  <p><b>wildcard .(dot) notation</b></p>
+
+  <p>
+    What the wildcard dot notation (.) does (also shown in example from above), is search match a specified character, with exception of a newline.</p>
+    <p id="ruby">/.s/</p>
+    <p>What this will do is search for all 's' characters. That simple! Really, the main function of a regular expression is to search and match for patterns. You can then choose to do other nifty stuff with it, and below are some helpful patterns you may come across, and their descriptors.</p>
+
   <p><b>Regexp patterns & syntax:</b></p>
+  <p id="ruby">
+    <pre>
+      ^       matches beginning of line
+      $       matches end of line
+      .       matches a single character (not newline)
+      \1...\9 matches nth grouped sub-expression
 
-  <p><b>wildcard character</b></p>
+      (re)    groups regexps & remembers text that matches
+      re*     matches 0 or more occurrences of preceding expression
+      re+     matches 1 or more occurrences of preceding expression
+      re?     matches 0 or 1 occurrence of preceding expression
+      re{ n}  matches exactly n number of occurrences of preceding expression
 
-  <p><b>instantiation</b></p>
+      \A      matches beginning of string
+      \b      matches backspace when in bracket notation (word boundaries when outside)
+      \B      matches non-word boundaries
+      \d      matches digits
+      \D      matches non-digits
+      \w      matches word characters
+      \W      matches non-word characters
+      \z      matches end of string
+
+      [...]   matches any single character in brackets
+      [^...]  matches any single character not in brackets
+
+    </pre>
+  </p>
+
+  <p>You may also find it helpful reviewing the <a href="http://ruby-doc.org/core-2.2.0/Regexp.html" rel="nofollow" target="blank">ruby-docs</a> for more information on this topic. Thanks for stopping by!
 
   <div class="social-media">
     <ul>
