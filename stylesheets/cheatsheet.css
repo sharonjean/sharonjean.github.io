@@ -1,8 +1,11 @@
+table {
+}
+
 td {
   font-family: monospace;
   font-size: 12px;
   background-color: #e8e8ee;
-  border: 1px solid black;
+  border: 1px solid #bbb;
 }
 
 tr.head {

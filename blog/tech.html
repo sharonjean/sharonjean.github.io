@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <title>regexp</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="page">
+  <header>
+    <nav>
+    <link href="https://file.myfontastic.com/BNfBWMa4saCx9GFDW5avVj/icons.css" rel="stylesheet">
+      <ul class="navigation">
+        <li><a href="http://sharonjean.github.io/blog-index.html">blog</a></li>
+        <li><a href="http://sharonjean.github.io/about.html">about</a></li>
+        <li><a href="http://sharonjean.github.io/projects/projects-index.html">projects</a></li>
+        <li><a href="">resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h3>January 10</h3>
+  <h1>regular expressions</h1>
+  <p>
+    The first time I saw regular expressions (often referred to as Regexp), the code might as well have been written in heiroglyphics. While at first I raised my eyebrow trying to decipher what was going on, I immediately became curious—<i>what is this doing? What does it represent?</i></p>
+  <p>
+    Well, I'm here to break the mystery down, and I'm happy to report it's not as scary as it might look!</p>
+
+  <p><b>What <i>is</i> a regular expression?</b></p>
+
+  <p>A regular expression is an object in Ruby (identified as Regexp), used to match or identify a pattern against strings. This is accomplished by writing the pattern in literal notation— <span class="ruby">/pattern/ or %r{pattern}.</span> Although some find it difficult to read, and possibly hard to maintain, it's truly a powerful tool that allows you to perform powerful searches and pattern-matching capability.
+
+  <p id="ruby">
+    <pre>
+    <b>example:</b>
+
+    sunday = "Cloudy with a light chance of rain."
+    monday = "Thunderstorms, with high winds."
+
+    if ( sunday =~ /rain(.*)/ )
+      puts "sunday contains rain"
+    end
+    if ( monday =~ /rain(.*/ )
+      puts "monday contains rain"
+    end
+
+    => "sunday contains rain"
+    </pre>
+  </p>
+
+  <p><b>Regexp patterns & syntax:</b></p>
+
+  <p><b>wildcard character</b></p>
+
+  <p><b>instantiation</b></p>
+
+  <div class="social-media">
+    <ul>
+      <li><a target="blank" href="https://plus.google.com/u/0/109338505039340277204" class="icon-social-google-plus"></a></li>
+      <li><a target="blank" href="https://github.com/sharonjean" class="icon-github"></a></li>
+      <li><a target="blank" href="https://www.linkedin.com/in/sharonjean" class="icon-social-linkedin"></a></li>
+      <li><a href="mailto:sclaitor@gmail.com" class="icon-email-mail-streamline"></a>
+    </ul>
+  </div>
+  <footer>
+    <p>&copy; sharon jean 2015</p>
+  </footer>
+  </div>
+  </body>
+</html>
