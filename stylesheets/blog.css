@@ -10,6 +10,12 @@
   font-size: 16px;
 }
 
+ol li {
+  list-style-type: upper-roman;
+  display: block;
+  padding: 10px;
+}
+
 pre {
   margin-right: 150px;
   margin-left: 150px;
@@ -25,11 +31,6 @@ pre {
   padding: 20px;
   text-align: left;
 }
-
-figure {
-  text-align: center;
-}
-
 
 body {
   font-family: sans-serif;
