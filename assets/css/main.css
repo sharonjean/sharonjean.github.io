@@ -12,7 +12,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -76,7 +76,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: url(../img/venus.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -100,7 +100,7 @@ a:after {
 	margin-top: 150px;
 	color: white;
 	font-size: 70px;
-	font-weight: 700;
+	font-weight: 100;
 }
 
 #headerwrap h3 {
@@ -111,17 +111,11 @@ a:after {
     font-style: oblique;
 }
 
-#headerwrap .logo {
-	text-align: left;
-	margin-left: 20px;
-	margin-top: 15px;
-}
-
 
 /* Footer Wrap */
 
 #f {
-	background: #1a1a1a;
+	background: #383838;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
@@ -130,7 +124,7 @@ a:after {
 #f h3 {
 	color: white;
 	font-size: 28px;
-	font-weight: 700;
+	font-weight: 100;
 	letter-spacing: 1px;
 }
 
@@ -170,15 +164,16 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background: #191919;
+  opacity: 0.5;
 	width: 200px;
 	height: 100%;
 }
 
 .menu h1.logo a {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 100;
 	letter-spacing: 0.15em;
 	line-height: 40px;
 	text-transform: uppercase;
@@ -200,7 +195,7 @@ a:after {
 	color: #808080;
 	display: block;
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 100;
 	line-height: 40px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
