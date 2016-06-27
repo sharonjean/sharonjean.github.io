@@ -6,6 +6,6 @@
 			$('#theMenu').toggleClass('menu-open');
 		});
 
-    $.backstretch("assets/img/backgrounds/1.jpg");
+		$.backstretch("assets/img/backgrounds/1.jpg");
 
 })(jQuery)
