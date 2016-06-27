@@ -306,3 +306,8 @@ a:after {
   display: inline;
 }
 
+.btn-cv {
+  color: #333;
+  border-radius: 15px;
+  opacity: 0.8;
+}
